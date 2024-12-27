@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/community.css">
+
+  <!-- Text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julee&family=Poppins:ital,wght@0,400;1,200&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+
+  <title>Community-talk</title>
+</head>
+
+<body>
+
+  <div class="container-fluid"
+    style="padding: 0; background-image: url(Asset/bg-pic.png); background-size: cover; width: auto;">
+
+    <!-- Nav Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-lightbrown">
+      <!-- Just an image -->
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://i.ibb.co/ZfHMvs1/newlogo.png" width="80" height="80">
+        </a>
+      </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-bar" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-Julee">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Community" href="categories.html">Monster(Yokai)</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link Community" href="Community_new.html">Community<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Announcement" href="Announcement.html">Announcement</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </nav>
+    <!-- Nav End -->
+
+
+    <!-- Submenu (Art and Talk) -->
+    <div class="d-flex"></div>
+    <div class="submenu">
+      <ul>
+        <li>
+          <a href="Community_new.html" class="submenu-item">
+            <img src="https://i.ibb.co/q9F9xpb/Artnew.jpg" alt="Art">
+            <span>Art</span>
+          </a>
+        </li>
+        <li>
+          <a href="Community-talk.html" class="submenu-item">
+            <img src="https://i.ibb.co/WpVTyMW/talk.jpg" alt="Talk">
+            <span>Talk</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container mt-4">
+      <!-- Post Card post1-->
+      <div class="post-card">
+        <div class="d-flex align-items-center mb-3">
+          <img src="https://i.ibb.co/gWH24sw/touxiang.png" alt="User Avatar" width="50" height="50"
+            class="rounded-circle">
+          <div class="ml-3">
+            <h5 class="mb-0">mystariassss my oshie</h5>
+            <small>@mystarias_520</small>
+          </div>
+        </div>
+        <p>HiHi Minasann~~ Let me introduce to you. This is my OC.</p>
+        <p> His name is Ignis. ฅ^•ﻌ•^ฅ and he is a Fire Yokai. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</p>
+        <img src="https://i.ibb.co/dK0z4H1/postpic2.png" alt="Post Image" class="">
+
+        <!-- Buttons -->
+        <div>
+          <span class="like-button" onclick="toggleLike(this)">❤️ Like</span>
+          <span class="ml-3">💬 Comment</span>
+          <span class="ml-3">🔗 Share</span>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+          <h6>Comments</h6>
+          <div id="comments-container">
+            <!-- Comments will appear here -->
+          </div>
+
+          <!-- Comment Input -->
+          <div class="comment-box">
+            <input type="text" id="comment-input" class="form-control" placeholder="Write a comment...">
+            <button class="btn btn-primary mt-2" onclick="addComment()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <!-- Post Card post2-->
+      <div class="post-card">
+        <div class="d-flex align-items-center mb-3">
+          <img src="https://i.ibb.co/kgW5WtH/iveprofile.png" alt="User Avatar" width="50" height="50"
+            class="rounded-circle">
+          <div class="ml-3">
+            <h5 class="mb-0">Ike Eveland 【Nijisanji JP】</h5>
+            <small>IkeEve1314</small>
+          </div>
+        </div>
+        <p>Yōkai (妖怪) are supernatural creatures that are very much present in Japanese culture. The term yōkai
+          can be translated as "spirit, demon or ghost." They exist in many varieties, from the scary to the
+          wacky.Yōkai stands for&nbsp;monster, ghost, demon, or supernatural phenomenon. This term, derived from the
+          Chinese, remains quite mysterious. Moreover, its kanji writing refers to the strange and extraordinary.</p>
+
+        <!-- Buttons -->
+        <div>
+          <span class="like-button" onclick="toggleLike(this)">❤️ Like</span>
+          <span class="ml-3">💬 Comment</span>
+          <span class="ml-3">🔗 Share</span>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+          <h6>Comments</h6>
+          <div id="comments-container">
+            <!-- Comments will appear here -->
+          </div>
+
+          <!-- Comment Input -->
+          <div class="comment-box">
+            <input type="text" id="comment-input" class="form-control" placeholder="Write a comment...">
+            <button class="btn btn-primary mt-2" onclick="addComment()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <!-- Post Card post3-->
+      <div class="post-card">
+        <div class="d-flex align-items-center mb-3">
+          <img src="https://i.ibb.co/3SzyXRN/companyprofile.png" alt="User Avatar" width="50" height="50"
+            class="rounded-circle">
+          <div class="ml-3">
+            <h5 class="mb-0">JapanSocietyNYC</h5>
+            <small>@japansocietynyc</small>
+          </div>
+        </div>
+        <img src="https://i.ibb.co/fnjV9vL/banner.png" alt="Post Image" class="">
+
+        <!-- Buttons -->
+        <div>
+          <span class="like-button" onclick="toggleLike(this)">❤️ Like</span>
+          <span class="ml-3">💬 Comment</span>
+          <span class="ml-3">🔗 Share</span>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+          <h6>Comments</h6>
+          <div id="comments-container">
+            <!-- Comments will appear here -->
+          </div>
+
+          <!-- Comment Input -->
+          <div class="comment-box">
+            <input type="text" id="comment-input" class="form-control" placeholder="Write a comment...">
+            <button class="btn btn-primary mt-2" onclick="addComment()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footage Start-->
+    <div class="footage-wrapper" style="background-color: #DDBE82;">
+      <div class="row bg-lightbrown text-black">
+        <img class="col-sm-12 col-md-12 col-lg-12" src="https://i.ibb.co/0nFhkXZ/footer.png" alt="">
+      </div>
+
+      <div class="row bg-lightbrown text-black px-2 text-center">
+        <div class="col-1 col-sm-1 col-md-5 col-lg-5 my-2"></div>
+        <div class="col-10 col-sm-10 col-md-2 col-lg-2 my-2">
+          <img src="https://i.ibb.co/ZfHMvs1/newlogo.png" alt="Logo" style="width: 50%; height: auto;">
+        </div>
+        <div class="col-1 col-sm-1 col-md-5 col-lg-5 my-2"></div>
+
+        <div class="col-1 col-sm-1 col-md-2 col-lg-2 my-2"></div>
+        <div class="col-10 col-sm-10 col-md-8 col-lg-8 my-2 text-lacquer" style="font-size: 20px;">JAPANESE MONSTER
+          (YOKAI) CULTURE
+          RESEARCH</div>
+        <div class="col-1 col-sm-1 col-md-2 col-lg-2 my-2"></div>
+
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 my-2"></div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 my-2">
+          <a href="https://x.com/Winnie5_?t=GoP8kazg775nYnMe4MPJsA&amp;s=09"><img src="https://i.ibb.co/BVx8yvx/X.png"
+              alt=""></a>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 my-2">
+          <a href="https://www.instagram.com/niji_wimi/profilecard/?igsh=d3NmbGRjbnduZ2U1"><img
+              src="https://i.ibb.co/TYSBLR0/IG.png" alt=""></a>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 my-2">
+          <a href="https://www.facebook.com/groups/418605864264800/?ref=share&amp;mibextid=NSMWBT"><img
+              src="https://i.ibb.co/7g1wF6h/FB.png" alt=""></a>
+        </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 my-2"></div>
+      </div>
+    </div>
+    <!-- Footage End -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      // Toggle Like Button
+      function toggleLike(element) {
+        element.classList.toggle('liked');
+      }
+
+      // Add Comment
+      function addComment() {
+        const commentInput = document.getElementById('comment-input');
+        const commentText = commentInput.value.trim();
+
+        if (commentText) {
+          const commentsContainer = document.getElementById('comments-container');
+          const commentDiv = document.createElement('div');
+          commentDiv.textContent = commentText;
+          commentDiv.classList.add('mt-2', 'p-2', 'bg-light', 'rounded');
+          commentsContainer.appendChild(commentDiv);
+          commentInput.value = ''; // Clear the input field
+        } else {
+          alert('Please write a comment before submitting.');
+        }
+      }
+    </script>
+  </div>
+</body>

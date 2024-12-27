@@ -1,0 +1,138 @@
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-lightbrown{
+    background-color: #f5e8c8;
+}
+
+.text-Julee{
+    color: #000;
+    font-family: 'Julee',sans-serif;
+    font-size: 1.4rem;
+}
+
+.text-lacquer{
+    color: #000;
+    font-family: "Lacquer", system-ui;
+    font-size: 2rem;
+}
+
+/* Submenu 容器 */
+.submenu {
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+}
+
+/* Submenu 列表 */
+.submenu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0; /* 无间距 */
+}
+
+/* 每个列表项 */
+.submenu li {
+    flex: 1;
+    position: relative;
+    height: 150px;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* 图片样式，默认降低透明度 */
+.submenu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8; /* 降低图片鲜艳度 */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* 文字覆盖样式 */
+.submenu-item span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white; /* 白色文字 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* 添加阴影 */
+    z-index: 1;
+}
+
+/* 鼠标悬停时图片更暗 */
+.submenu li:hover img {
+    opacity: 0.5;
+    transform: scale(1.05);
+}
+
+/* 点击选中样式 */
+.submenu-item:active,
+.submenu-item.active { /* 添加 active 类或者鼠标按下时 */
+    position: relative;
+    background-color: rgba(255, 182, 193, 0.3); /* 添加淡红色背景（滤镜效果） */
+}
+
+/* 点击时图片带红色叠加 */
+.submenu-item.active img {
+    filter: brightness(0.9) saturate(0.8); /* 让图片暗一点，颜色淡一点 */
+    opacity: 0.8; /* 透明度稍微调整 */
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.post-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.like-button {
+    color: gray;
+    cursor: pointer;
+}
+
+.like-button.liked {
+    color: red;
+}
+
+.comment-section {
+    margin-top: 15px;
+}
+
+.comment-box {
+    margin-top: 10px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        height: 200px; /* 小屏幕时图片更小 */
+    }
+}
+
+@media (max-width: 576px) {
+    .img-fluid {
+        height: 450px; /* 更小的屏幕时调整 */
+    }
+}

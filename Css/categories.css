@@ -1,0 +1,128 @@
+.img-red{   /* 图片变黑白/灰度 */ /* 棕褐色 */ /*色相旋转 配合其他效果生成红色 */ /*饱和 */  /*降低亮度，防止红色过爆 */ 
+    filter: grayscale(0%) sepia(30%) hue-rotate(-30deg) saturate(150%) brightness(100%);
+    opacity: 0.5;
+}
+
+
+.img-brown{
+    filter: sepia(70%) saturate(300%) brightness(60%);
+    opacity: 0.4;
+}
+
+.div-taller{
+    height: auto;
+}
+
+.div-taller-category{
+    height:auto;
+}
+
+.img-MonsterPage{
+    height:17.5vw;
+    width:17.5vw;
+}
+
+.img-Category{
+    height: 146px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.img-Footage{
+    height:47px;
+    width: 945px; 
+    padding: 0px;
+}
+
+.navbar-bar{
+    color: #000;
+    font-family:Julee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 10px;
+    line-height: normal;
+}
+
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .yokai-research {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.5em; /* 根据需要调整字体大小 */
+    text-align: center;
+    color: #000; /* 设置字体颜色 */
+}
+
+  
+.bg-custom {
+    background-image: url(https://i.ibb.co/56YRjJw/bg-pic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.btn-lightbrown {
+    background-color: #D2B48C; /* 自定义浅棕色 */
+    color: white;
+  }
+  
+  .btn-lightbrown:hover {
+    background-color: #A67B5B; /* 鼠标悬停颜色 */
+    color: white;
+  }
+  
+
+.text-align-MonsterPage{
+    text-align: center;
+}
+
+.text-custom{
+    color: #000;
+    font-family: 'Julee' , sans-serif;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.text-Julee{
+    color: #000;
+    font-family: 'Julee',sans-serif;
+    font-size: 1.4rem;
+}
+
+
+/* Colors */
+.bg-grey{
+    background-color: rgb(66, 63, 63);
+}
+
+.bg-brown{
+    background-color: #C7AC77;
+}
+
+.bg-red{
+    background-color: #FF0000;
+}
+
+.bg-lightbrown{
+    background-color: #f5e8c8;
+}
+
+.bg-white{
+    background-color:#ffff;
+}
+
+.bg-darkbrown{
+    background-color: #DDBE82;
+}
+
+

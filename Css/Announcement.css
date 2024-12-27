@@ -1,0 +1,51 @@
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-lightbrown{
+    background-color: #f5e8c8;
+}
+
+.text-Julee{
+    color: #000;
+    font-family: 'Julee',sans-serif;
+    font-size: 1.4rem;
+}
+
+.text-lacquer{
+    color: #000;
+    font-family: "Lacquer", system-ui;
+    font-size: 2rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #909090 !important;
+}
+  
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: blueviolet;
+}
+
+.c{
+    background-color: aqua;
+}
+
+.d{
+    background-color:rgb(128, 154, 178)
+}
+
+.grey{
+    background-color: grey;
+}

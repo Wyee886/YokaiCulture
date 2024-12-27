@@ -1,0 +1,75 @@
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div-explanation{
+    height: auto;
+}
+
+.text-Julee{
+    color: #000;
+    font-family: 'Julee',sans-serif;
+    font-size: 1.4rem;
+}
+
+.text-lacquer{
+    color: #000;
+    font-family: "Lacquer", system-ui;
+    font-size: 2rem;
+}
+
+.title{
+    color: #8a0000;
+    font-family: 'Julee',sans-serif;
+    font-size: 3rem;
+}
+
+.note{
+    color: #000000;
+    font-family: 'Julee',sans-serif;
+    font-size: 3rem;
+}
+
+.bg-lightbrown{
+    background-color: #f5e8c8;
+}
+
+.border-bottom{
+    border-bottom: 2px solid #ff0000 !important;
+}
+
+.border-top{
+    border-top: 2px solid #ff0000 !important;
+}
+
+.hr{ 
+    border-top: 1px solid rgb(255 0 0);
+}
+
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: blueviolet;
+}
+
+.c{
+    background-color: aqua;
+}
+
+.d{
+    background-color:rgb(128, 154, 178)
+}
+
+.grey{
+    background-color: grey;
+}

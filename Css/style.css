@@ -1,0 +1,92 @@
+h1 { 
+    color: green;
+}
+
+.julee-regular {
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-lightbrown{
+    background-color: #f5e8c8;
+}
+
+.text-Julee{
+    color: #000;
+    font-family: 'Julee',sans-serif;
+    font-size: 1.4rem;
+}
+
+.text-lacquer{
+    color: #000;
+    font-family: "Lacquer", system-ui;
+    font-size: 2rem;
+}
+
+/* Color Testing */
+.bg-aqua{
+    background-color: aqua;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-violet{
+    background-color: violet;
+}
+
+.bg-purpel{
+    background-color: purple;
+}
+
+.bg-nenggreen{
+    background-color: rgb(130, 216, 37);
+}
+
+.bg-mintgreen{
+    background-color: rgb(109, 238, 191);
+}
+
+.bg-oren{
+    background-color: rgb(240, 215, 90);
+}
+
+.bg-mint{
+    background-color: rgb(24, 199, 184);
+}
+
+
+  .image-overlay{
+    position: absolute;
+    bottom: 40%; /* 调整文字的位置 */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* 添加阴影让文字更清晰 */
+  }
